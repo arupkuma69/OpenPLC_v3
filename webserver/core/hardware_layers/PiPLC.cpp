@@ -60,14 +60,14 @@
 //means what pin is mapped to that OpenPLC input
 //Order is intentional to match the GPIO mapping table of PiPLC at https://github.com/chrismettal/piplc#gpio-mapping
 //while having all inputs mapped "in order" from left to right
-int inBufferPinMask[MAX_INPUT] = { 17, 27, 22, 9, 11, 13, 26 };
+int inBufferPinMask[MAX_INPUT] = { 17, 27, 22, 10, 9, 11, 13, 26 };
 
 //outBufferPinMask: pin mask for each output, which
 //means what pin is mapped to that OpenPLC output
 //
 //Order is intentional to match the GPIO mapping table of PiPLC at https://github.com/chrismettal/piplc#gpio-mapping
 //while having all relays mapped "in order" from left to right
-int outBufferPinMask[MAX_OUTPUT] =	{ 24, 25, 7, 12, 16, 20, 21};
+int outBufferPinMask[MAX_OUTPUT] =	{ 24, 25, 8, 7, 12, 16, 20, 21};
 
 //analogOutBufferPinMask: pin mask for the analog PWM
 //output of the RaspberryPi

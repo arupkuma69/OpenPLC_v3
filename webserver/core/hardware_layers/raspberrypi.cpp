@@ -50,11 +50,11 @@
 ****************************************************************/
 //inBufferPinMask: pin mask for each input, which
 //means what pin is mapped to that OpenPLC input
-int inBufferPinMask[MAX_INPUT] = { 2, 3, 4, 17, 27, 22, 10, 9, 11, 5, 6, 13, 19, 26 };
+int inBufferPinMask[MAX_INPUT] = { 2, 3, 4, 17, 27, 22, 9, 11, 5, 6, 13, 19, 26 };
 
 //outBufferPinMask: pin mask for each output, which
 //means what pin is mapped to that OpenPLC output
-int outBufferPinMask[MAX_OUTPUT] =	{ 14, 15, 23, 24, 25, 8, 7, 12, 16, 20, 21 };
+int outBufferPinMask[MAX_OUTPUT] =	{ 14, 15, 23, 24, 25, 7, 12, 16, 20, 21 };
 
 //analogOutBufferPinMask: pin mask for the analog PWM
 //output of the RaspberryPi
